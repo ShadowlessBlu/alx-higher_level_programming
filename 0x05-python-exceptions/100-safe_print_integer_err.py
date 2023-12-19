@@ -2,6 +2,16 @@
 import sys
 
 def safe_print_integer_err(value):
+    """
+    Safely prints an integer.
+
+    Args:
+        value: The value to be printed.
+
+    Returns:
+        True if value is an integer and has been correctly printed,
+        False otherwise, and prints an error message to stderr.
+    """
     try:
         print("{:d}".format(value))
         return True
