@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-let myNam e= "blu";
-console.log(myName); // blu
-let myAge = 25;
-console.log(myAge) //  25   
+const myVar = 'JavaScript is amazing';
+
+console.log(myVar); // Output: JavaScript is amazing
+// You can also use the `let` keyword to declare a variable, which has block
